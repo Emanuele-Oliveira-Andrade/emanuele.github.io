@@ -77,33 +77,3 @@ p4{
 .button a {
     color: white;
 }
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-image: url("https://img.freepik.com/fotos-premium/fundo-de-textura-de-parede-escura_320929-629.jpg?semt=ais_hybrid&w=740&q=80");
-  background-repeat: no-repeat;
-  width: 1000px;
-  padding: 10px;
-  margin: 5px;
-  background-attachment: fixed;
-  background-position: left top;
-}
-
-ul li {
-  float: left;
-}
-
-ul li a {
-  display: block;
-  color: rgb(201, 201, 201);
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-ul li a:hover {
-  background-color: #505050;
-}
-  
