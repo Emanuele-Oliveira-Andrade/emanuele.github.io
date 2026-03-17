@@ -77,8 +77,8 @@ p4{
 .button a {
     color: white;
 }
-  .custom-button {
-    
+
+.custom-button {
       background-color: #f4f7ff;
       color: #000000; 
       font-family: Tahoma, system-ui, sans-serif;
@@ -91,13 +91,10 @@ p4{
       cursor: pointer;
       font-weight: normal;
       border: 1px solid #000000;
-    
   }
 
-  .custom-button:hover {
-    
+.custom-button: hover {
         color: #000000;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         filter: brightness(110%);
-      
   }
