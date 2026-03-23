@@ -100,26 +100,26 @@ p4{
   }
 
 .navbar {
-    background-color: #333; 
+    background-color: #333; /* Cor de fundo */
     padding: 1rem;
 }
 
 .nav-list {
-    display: flex; 
-    justify-content: center; 
-    list-style: none;
+    display: flex; /* Alinha itens horizontalmente */
+    justify-content: center; /* Centraliza o menu */
+    list-style: none; /* Remove pontinhos da lista */
     margin: 0;
     padding: 0;
-    gap: 20px; 
+    gap: 20px; /* Espaço entre itens */
 }
 
 .nav-list a {
-    text-decoration: none; 
-    color: white; 
+    text-decoration: none; /* Remove sublinhado */
+    color: white; /* Cor do texto */
     font-family: sans-serif;
     font-weight: bold;
 }
 
 .nav-list a:hover {
-    color: #ddd; 
+    color: #ddd; /* Efeito ao passar o mouse */
 }
