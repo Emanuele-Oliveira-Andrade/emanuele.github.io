@@ -100,26 +100,22 @@ p4{
   }
 
 .navbar {
-    background-color: #333; /* Cor de fundo */
-    padding: 1rem;
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between; /* Logo na esquerda, links na direita */
+    align-items: center; /* Alinha verticalmente */
+    padding: 10px 20px;
 }
 
 .nav-list {
-    display: flex; /* Alinha itens horizontalmente */
-    justify-content: center; /* Centraliza o menu */
-    list-style: none; /* Remove pontinhos da lista */
-    margin: 0;
-    padding: 0;
-    gap: 20px; /* Espaço entre itens */
+    list-style: none; /* Remove bolinhas da lista */
+    display: flex; /* Coloca os itens <li> na horizontal */
+    gap: 20px; /* Espaçamento entre os links */
 }
 
 .nav-list a {
     text-decoration: none; /* Remove sublinhado */
-    color: white; /* Cor do texto */
-    font-family: sans-serif;
-    font-weight: bold;
-}
-
-.nav-list a:hover {
-    color: #ddd; /* Efeito ao passar o mouse */
+    color: white;
+    font-family: Arial, sans-serif;
 }
