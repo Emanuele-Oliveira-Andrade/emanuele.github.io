@@ -99,7 +99,7 @@ p4{
         filter: brightness(110%);
   }
 
-.navbar {
+navbar {
     background-color: #333; /* Cor de fundo */
     padding: 1rem;
 }
