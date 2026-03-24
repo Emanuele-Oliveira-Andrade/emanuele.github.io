@@ -50,7 +50,7 @@ p4{
 
 }
 .button {
-  background-color: :#926834cc;
+  background-color: #926834cc;
   border: none;
   color: black;
   text-align: center;
@@ -64,6 +64,7 @@ p4{
 .botao-imagem img {
     margin-right: 10px; 
     width: 20px; 
+}
 .botao-imagem {
     display: inline-flex; 
     align-items: center;
@@ -93,33 +94,37 @@ p4{
       border: 1px solid #000000;
   }
 
-.custom-button: hover {
+.custom-button:hover {
         color: #000000;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         filter: brightness(110%);
-  }
+      }
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 .navbar {
-    background-color: #333;
+    background-color:  #946a36cc;
     color: white;
     display: flex;
-    justify-content: space-between; /* Logo na esquerda, links na direita */
-    align-items: center; /* Alinha verticalmente */
+    justify-content: space-between; 
+    align-items: center; 
     padding: 10px 20px;
 }
 
 .nav-list {
-    list-style: none; /* Remove bolinhas da lista */
-    display: flex; /* Coloca os itens <li> na horizontal */
-    gap: 20px; /* Espaçamento entre os links */
+    list-style: none;
+    display: flex; 
+    gap: 20px;
 }
 
 .nav-list a {
-    text-decoration: none; /* Remove sublinhado */
-    color: white;
+    text-decoration: none; 
+    color: rgb(230, 195, 120);
     font-family: Arial, sans-serif;
+}
+.nav-list a:hover {
+    color: #e0e0e0; 
 }
